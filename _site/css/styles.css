@@ -1,0 +1,94 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #A8DBA8;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 80%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #0B486B;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CFF09E;
+}
+
+#header li {
+  float: left;
+}
+
+#header li a {
+  display: block;
+  color: #3B8686;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#footer p {
+  background-color: #0B486B;
+  color: #79BD9A;
+  font-style: italic;
+  position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+}
+
+#link-to-email {
+  color:
+}
+
+li a:hover, a.link-to-email:hover {
+    background-color: #79BD9A;
+}
+
+#day-to-night-africa {
+  height: 400px;
+}
+
+#thai-sunset {
+  margin-top: 12px;
+  height: 300px;
+}
+
+#site-title {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  line-height: 50px;
+  background-color: #0B486B;
+  color: #79BD9A;
+}
+
+#archive-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+  color: #CFF09E;
+  overflow: hidden;
+  display: block;
+}
+
+#archive-list a:hover {
+  background-color:  #79BD9A;
+}
+
+#container {
+  margin-left: 6px;
+}
+
+#david-headshot {
+  width: 200px;
+}
