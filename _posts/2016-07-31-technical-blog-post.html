@@ -1,0 +1,106 @@
+---
+title: Technical Blog Post
+layout: post
+date: 2016-7-31
+---
+ <p>
+   So you've decided you want to learn how to Ruby.  Excellent.  Where to start?
+   Let's walk through a few of the fundamental concepts of coding.
+   First up, we have variables.
+</p>
+If I want to store a value in Ruby, I can simply assign it to a variable.
+For instance, if I have the number 3, and I want to save it, all I have to do is assign it to a variable.
+ <pre>
+   x = 3
+ </pre>
+ <p>
+   Now 3 is saved as x.  I can access 3 by typing x.  If I want to change this value, I can simply re-assign it.
+ </p>
+ <pre>
+   x = 4
+ </pre>
+<p>
+  x is now saved as 4, and I can access the number 4 simply by entering x.
+</p>
+<p>
+  But what if I now have another number 2? What shall I do with it? I can assign 2 to another variable.
+</p>
+<pre>
+  bananas = 2
+</pre>
+<p>
+  Why is 2 saved as bananas?  Because I can assign variables to whatever I want, that's why.
+  Now I can also perform calculations.
+</p>
+<pre>
+  x * bananas
+</pre>
+<p>
+  What do you expect this to yield? If you answered something to do with bananas, you would be incorrect.
+  This equation evalutes to 8.  I can use any normal mathematical operations on x and bananas.  It's just like algebra class again.
+</p>
+<p>
+  Another important programming concept is booleans.  A boolean is a data type that can be either true or false.
+  I can also save booleans by assigning them to variables.
+</p>
+<pre>
+  blogging = true
+  sleeping = false
+</pre>
+<p>
+  We can use booleans to create a flow of logic.  Creating a logical sequence of events allows computers to get things done.
+  One way to create this flow is to use conditionals.
+</p>
+<pre>
+  if blogging == false
+     sleep = true
+  elsif blogging == true
+     sleeping = 7
+  end
+</pre>
+<p>
+  In the previous example, the double-equal sign represents a boolean.  Whereas a regular equals sign is used to to assign a value to a variable, a double-equal sign is used to check to see if the two values are equal.
+  In other words, the double-equal actually returns a boolean, since it will evaluate to either true or false.
+</p>
+<p>
+  Earlier above we set blogging equal to true:
+</p>
+<pre>
+  blogging = true
+</pre>
+<p>
+  In our conditional, we first check to see if blogging is equal to false
+</p>
+<pre>
+  blogging == false
+</pre>
+<p>
+  Since we set it to true above, this boolean evalutes to false, and we do not execute the code below the if statement.
+  The assignment which would set sleep equal to true, does not execute because the statement following `if` is not true.
+  So this code does not execute:
+</p>
+<pre>
+  sleep = true
+</pre>
+<p>
+  Instead, we skip to the next `if` condition, which is now denoted by an elsif block.
+  Here we see another evaluation which checks to if blogging is equal to true.
+</p>
+<pre>
+  blogging == true
+</pre>
+<p>
+  We know from above that we set blogging equal to true, so this boolean evaluates to true.
+  This means that code nested inside this elsif condition will execute.
+  In this case, that means we now set the variable sleeping to 7.
+</p>
+<pre>
+  sleeping = 7
+</pre>
+<p>
+  We initially set sleeping to be true, so we have changed it's value.  This shows you again that variables can be assigned to anything.
+    Even though we had a boolean earlier on, we overwrote that boolean by assigning the same variable to a number.
+</p>
+<p>
+  So there you have a very shoddy and fast introduction to some basic coding concepts.  More to come soon.
+</p>
