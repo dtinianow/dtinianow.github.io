@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for post in site.posts %}
-  <img id="thai-sunset" src="https://scontent.xx.fbcdn.net/t31.0-8/11402272_10206379421220239_8256670325348576871_o.jpg" alt="thailand sunset">
+  <img id="thai-sunset" src="/assets/IMG_4760.jpg" alt="thailand sunset">
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <h4>{{ post.date | date: "%m-%d-%Y" }}</h4>
   <p>{{ post.content | strip_html | truncatewords:10}}</p>
